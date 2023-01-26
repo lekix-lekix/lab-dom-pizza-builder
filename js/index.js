@@ -107,7 +107,7 @@ function renderPrice() {
       i++;
     }
   }
-  document.querySelector('.panel.price strong').innerHTML = `$ ${newPrice}`;
+  document.querySelector('.panel.price strong').innerHTML = `$${newPrice}`;
 }
 
 renderEverything();
